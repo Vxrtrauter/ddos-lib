@@ -48,6 +48,6 @@ Contributions are welcome! If you have ideas or improvements, please fork the re
 
 
 
-## Acknowledgements
+## To-Do
 
-Thank you to everyone who contributes to open-source projects and inspires learning through coding.
+Add all scripts to the Launcher
