@@ -18,7 +18,7 @@ def page_1():
     title_screen()
     print(f"""
           .-------------.       .-------------.       .-------------.
-          |  Saphyra.py |       |  Saphyra.py |       |  Saphyra.py |
+          |   saphyra   |       |    akira    |       |   layer 7   |
           |      1      |       |      2      |       |      3      |
           '-------------'       '-------------'       '-------------'
 
