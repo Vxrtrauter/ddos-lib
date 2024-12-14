@@ -2,7 +2,7 @@ import keyboard
 import os
 from func.pages import page_1
 from func.pageswitch import keypressing
-# thanks keksnino for pasting 9 lines <3 (jk)
+# thanks keksnino for pasting 9 lines of my code <3 (jk)
 
 os.system('cls' if os.name == 'nt' else 'clear')
 page_1()
