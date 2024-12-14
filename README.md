@@ -44,7 +44,7 @@ This project includes an archive of older Python scripts (e.g., DDoS and network
 
 ## Contributing
 
-Contributions are welcome! If you have ideas or improvements, please fork the repository, make your changes, and submit a pull request.
+Contributions are welcome! If you have ideas, improvements or resources, please fork the repository, make your changes, and submit a pull request.
 
 
 
