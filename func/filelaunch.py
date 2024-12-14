@@ -15,7 +15,15 @@ def option1(_):
     
 
 def option2(_):
-    return
+    if page == 1:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        title_screen()
+        print(" ")
+        url = input("Target URL: ")
+        if url.startswith("https://"):
+            url = "http://" + url[8:]
+        file = os.path.join(os.path.dirname(__file__), '..', 'scripts', 'akira.py')
+        os.system(f"python {file} {url}")
 
 def option3(_):
     return
