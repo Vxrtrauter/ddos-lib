@@ -1,3 +1,5 @@
+
+
 def title_screen():
     print(f"""
  _____                                                                    _____ 
@@ -16,6 +18,7 @@ def title_screen():
 
 def page_1():
     title_screen()
+    from config import state
     print(f"""
           .-------------.       .-------------.       .-------------.
           |   saphyra   |       |    akira    |       |   layer 7   |
@@ -23,25 +26,43 @@ def page_1():
           '-------------'       '-------------'       '-------------'
 
           .-------------.       .-------------.       .-------------.
-          |  Saphyra.py |       |  Saphyra.py |       |  Saphyra.py |
+          | blackhorizon|       |    botnet   |       |    canon    |
           |      4      |       |      5      |       |      6      |
           '-------------'       '-------------'       '-------------'
 
-                                  [ page 1 ]
+                                  [ page {state.page} ]
 """)
     
 def page_2():
     title_screen()
+    from config import state
     print(f"""
           .-------------.       .-------------.       .-------------.
-          |  Saphyra.py |       |  Saphyra.py |       |  Saphyra.py |
+          |   chihulk   |       |    dark     |       |  goldeneye  |
           |      1      |       |      2      |       |      3      |
           '-------------'       '-------------'       '-------------'
 
           .-------------.       .-------------.       .-------------.
-          |  Saphyra.py |       |  Saphyra.py |       |  Saphyra.py |
+          |   hellsec   |       |  httpdoser  |       | killappache |
           |      4      |       |      5      |       |      6      |
           '-------------'       '-------------'       '-------------'
 
-                                  [ page 2 ]
+                                  [ page {state.page} ]
+""")
+    
+def page_3():
+    from config import state
+    title_screen()
+    print(f"""
+          .-------------.       .-------------.       .-------------.
+          |   lulzsec   |       |     m60     |       |    purple   |
+          |      1      |       |      2      |       |      3      |
+          '-------------'       '-------------'       '-------------'
+
+
+          
+
+
+
+                                  [ page {state.page} ]
 """)

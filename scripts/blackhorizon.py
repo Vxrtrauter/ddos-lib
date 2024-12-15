@@ -549,7 +549,7 @@ def usage():
     print(' -s, --sockets Number of concurrent sockets\t(default: {0})'.format(DEFAULT_SOCKETS))
     print('FUCK YOU ')
     print("\a")
-print("""                                                       
+print(f"""                                                       
            .          .           .     .                .       .
   .      .      *           .       .          .                       .
                  .       .   . *  "The horizon will be black one day...

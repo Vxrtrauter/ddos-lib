@@ -1,7 +1,7 @@
 import keyboard
 import os
+from config import state
 from config import pages
-from config import page
 from func.filelaunch import option1
 from func.filelaunch import option2
 from func.filelaunch import option3
@@ -11,26 +11,24 @@ from func.filelaunch import option6
 
 
 def next(_):
-    global page
-    if page == 2:
+    if state.page == 3:
         return
     else:
         os.system('cls' if os.name == 'nt' else 'clear')
-        page += 1
-        if page in pages:
-            pages[page]()
+        state.page += 1
+        if state.page in pages:
+            pages[state.page]()
         else:
             return
 
 def back(_):
-    global page
-    if page == 1:
+    if state.page == 1:
         return
     else:
         os.system('cls' if os.name == 'nt' else 'clear')
-        page -= 1
-        if page in pages:
-            pages[page]()
+        state.page -= 1
+        if state.page in pages:
+            pages[state.page]()
         else:
             return
 
