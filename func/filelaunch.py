@@ -1,5 +1,4 @@
 import os
-import time
 from config import state
 from .pages import title_screen
 from .pages import page_1
