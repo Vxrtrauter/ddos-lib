@@ -40,7 +40,7 @@ Welcome to **DDOS-LIB**! This is an educational project aimed at automating task
 
 ## Educational Note
 
-This project includes an archive of older Python scripts (e.g., DDoS and network security tools) for personal learning only. These tools are private and not intended for public use or distribution. Please use responsibly and ethically.
+This project includes an archive of older Python scripts (e.g., DDoS and network security tools) which have been translated into Python 3.0 for personal learning only. These tools are private and not intended for public use or distribution. Please use responsibly and ethically.
 
 ## Contributing
 
