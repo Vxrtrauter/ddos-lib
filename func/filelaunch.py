@@ -22,10 +22,12 @@ def option4(_):
         blackhorizon(_)
 
 def option5(_):
-    return
+    if state.page == 1:
+        botnet(_)
 
 def option6(_):
-    return
+    if state.page == 1:
+        canon(_)
 
 
 
@@ -91,3 +93,27 @@ def blackhorizon(_):
     os.system("cls" if os.name == "nt" else "clear")
     page_1()
     state.page = 1
+
+def botnet(_):
+    os.system("cls" if os.name == "nt" else "clear")
+    title_screen()
+    print(" ")
+    url = input("Target URL: ")
+    if url.startswith("https://"):
+        url = "http://" + url[8:]
+    file = os.path.join(os.path.dirname(__file__), "..", "scripts", "botnet.py")
+    os.system(f"python {file} {url}")
+    os.system("cls" if os.name == "nt" else "clear")
+    page_1()
+
+def canon(_):
+    os.system("cls" if os.name == "nt" else "clear")
+    title_screen()
+    print(" ")
+    url = input("Target URL: ")
+    if url.startswith("https://"):
+        url = "http://" + url[8:]
+    file = os.path.join(os.path.dirname(__file__), "..", "scripts", "canon.py")
+    os.system(f"python {file} {url}")
+    os.system("cls" if os.name == "nt" else "clear")
+    page_1()
