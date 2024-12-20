@@ -1,3 +1,11 @@
+> [!NOTE] This Repository
+> has been archived due to
+> lack of motivation and badly
+> written code xd
+
+
+
+
 # DDOS-LIB
 
 Welcome to **DDOS-LIB**! This is an educational project aimed at automating tasks, running Python scripts, and managing batch files. Designed with a sleek console interface, this tool is perfect for those who appreciate minimalist aesthetics while exploring practical utilities.
