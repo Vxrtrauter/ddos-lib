@@ -72,7 +72,7 @@ def Layer7(_):
 
     else:
         print("Invalid Mode: "+mode)
-        option3()
+        option3(_)
         
 
 def blackhorizon(_):
